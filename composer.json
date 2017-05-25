@@ -1,14 +1,17 @@
 {
-    "name": "wayne/common_function",
-    "description": "wayne common function",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "wayne",
-            "email": "wayne0072005@163.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {}
+	"name" : "wayne/first",
+	"description" : "wayne first",
+	"type" : "library",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "wayne",
+			"email" : "wayne0072005@163.com"
+		}
+	],
+	"minimum-stability" : "dev",
+	"autoload" : {
+		"psr-4" : {
+			"Library\\Custom\\" : "src/Library/Custom"
+		}
+	}
 }
